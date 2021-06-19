@@ -9,7 +9,7 @@ regex = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
 #regular expression pattern
   
 def check(validate_mail):   #define function to validate email
-    if (validator.search(regex, validate_mail)):   
+    if (validator.search(regex, validate_mail)):   #if condition for validation email
         print("Valid Email")   
     else:   
         print("Invalid Email")   
