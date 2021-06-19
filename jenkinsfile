@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ('Python Script') {
+            Python helloworld.py
+        }
+    }
+}
