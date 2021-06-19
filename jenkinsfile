@@ -3,7 +3,9 @@ pipeline {
 
     stages {
         stage ('Python Script') {
+            steps {
             Python helloworld.py
+            }
         }
     }
 }
