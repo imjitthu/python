@@ -8,4 +8,9 @@ instana
 
 
 #uWSGI is a software application that "aims at developing a full stack for building hosting services". 
+
 #Pika is a pure-Python implementation of the AMQP 0-9-1 protocol including RabbitMQ’s extensions.
+
+#Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+#request: When a service receives a new request (over HTTP or some other protocol), it uses OpenTracing’s inject/extract API to continue an active trace, creating a Span object in the process. If the request does not contain an active trace, the service starts a new trace and a new root Span.
