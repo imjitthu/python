@@ -17,8 +17,14 @@
 # else:
 #     print('my full name is ' + full_name)
 
-DevOps_tools = ["terraform", "ansible", "jenkins", "docker", "kubernetes"]
-for tools in DevOps_tools:
-    print(tools)
-    if tools == "docker":
-        break
+# DevOps_tools = ["terraform", "ansible", "jenkins", "docker", "kubernetes"]
+# for tools in DevOps_tools:
+#     print(tools)
+#     if tools == "docker":
+#         break
+counter = 1
+while counter < 6:
+  print(counter)
+  if counter == 10:
+    break
+  counter += 1
