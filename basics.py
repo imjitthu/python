@@ -26,3 +26,4 @@ elif input >= 40:
     print(f'input is ' + str(input) + ' not valid') #converted integer to string
 else:
     print(f'input '  + str(input) + ' is not valid') #converted integer to string
+    print (range(input))
