@@ -17,14 +17,33 @@
 # else:
 #     print('my full name is ' + full_name)
 
-# DevOps_tools = ["terraform", "ansible", "jenkins", "docker", "kubernetes"]
-# for tools in DevOps_tools:
+
+DevOps_list = ["terraform", "ansible", "jenkins", "docker", "kubernetes", "ELK"]
+# for tools in DevOps_list:
 #     print(tools)
-#     if tools == "docker":
-#         break
-counter = 1
-while counter < 6:
-  print(counter)
-  if counter == 10:
-    break
-  counter += 1
+    # if tools == "docker":
+    #     break
+# counter = 1
+# while counter < 20:
+#   print(counter)
+#   if counter == 40:
+#     break
+#   counter += 1
+
+# DevOps_Set = {"terraform", "ansible", "jenkins", "docker", "kubernetes"}
+# print("jenkins" in DevOps_Set)
+# DevOps_Set.add("Prometheus")
+# DevOps_Set.update(DevOps_list)
+# print(DevOps_Set)
+# for tools in DevOps_Set:
+#     print(tools)
+
+# value = (10 + 5 * 25 / 2 - 8 % 1) #72.5
+# print(100 + value)
+# print(value - 100)
+# print (value)
+# print(type(value))
+
+user_name = input("enter your name:")
+    #if name in user_name == user_name:
+print('user name is: ' + user_name)
