@@ -44,6 +44,6 @@ print(value - 100)
 print (value)
 print(type(value))
 
-user_name = input("enter your name:")
+user_name = input("enter your name: ")
     #if name in user_name == user_name:
 print('user name is: ' + user_name)
