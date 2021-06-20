@@ -1,6 +1,7 @@
 import re as validator   
-#Inport regular expression module.
+#Import regular expression module.
 #This module provides regular expression matching operations similar to those found in Perl.
+import os #Import OS module is an optional
 
 user_email = input('Enter a valid email: ')  
 #create variable to get email as input from the user
