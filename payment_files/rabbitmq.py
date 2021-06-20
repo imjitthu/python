@@ -1,6 +1,7 @@
 import json
 import pika 
-import os #OS module in Python provides functions for interacting with the operating system.
+import os 
+#OS module in Python provides functions for interacting with the operating system.
 
 class Publisher:
     HOST = os.getenv('AMQP_HOST', 'rabbitmq')
