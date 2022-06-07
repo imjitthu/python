@@ -20,8 +20,7 @@ import awswrangler as wr
 
 ######### PARAMS #########################
 params = {
-    #'S3_PREFIX_FOLDER': 'errors/',
-    'S3_PREFIX_FOLDER': 'errors/partitioning-failed/',
+    'S3_PREFIX_FOLDER': 'errors/',
     'FIREHOSE_ERROR_BUCKET':os.environ.get('FIREHOSE_ERROR_BUCKET'),
     'KINESIS_DATA_STREAM':os.environ.get('KINESIS_DATA_STREAM')
 }
