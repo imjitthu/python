@@ -6,5 +6,5 @@ def main():
    mixer.init()
    mixer.music.load('output.mp3')
    mixer.music.play()
-if __name__ == "__main__":
+if __name__ == "main":
    main()
