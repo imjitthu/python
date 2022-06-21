@@ -15,6 +15,7 @@ resp = client.select_object_content(
     InputSerialization = {'CSV': {'FileHeaderInfo': 'Use'}},
     OutputSerialization = {'CSV': {}}
 )
+
 # create an empty file
 f = open(file,"w")
 f.close()
